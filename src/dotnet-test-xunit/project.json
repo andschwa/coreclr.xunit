@@ -19,20 +19,20 @@
       "imports": [
         "dnxcore50",
         "portable-net45+wp80+win8+wpa81+dnxcore50",
-        "portable-net45+win+wpa81+wp80+monotouch+monoandroid+Xamarin.iOS",
+        "portable-net45+win+wpa81+wp80+monotouch+monoandroid+Xamarin.iOS"
       ]
     }
   },
   "dependencies": {
-    "NETStandard.Library": "1.0.0-rc2-23901",
-    "System.Threading.ThreadPool": "4.0.10-rc2-23901",
+    "NETStandard.Library": "1.5.0-rc3-23921",
+    "System.IO.Compression": "4.1.0-rc3-23921",
+    "System.Threading.ThreadPool": "4.0.10-rc3-23921",
     "Microsoft.Extensions.Testing.Abstractions": "1.0.0-beta-001636",
-    "Microsoft.DotNet.ProjectModel": "1.0.0-beta-001636",
+    "Microsoft.DotNet.ProjectModel": "1.0.0-dev-1457",
     "Microsoft.DotNet.Cli.Utils": "1.0.0-beta-001636",
     "Microsoft.Extensions.CommandLineUtils.Sources": "1.0.0-*",
-    "NuGet.Packaging.Core": "3.4.0-beta-625",
-    "xunit.runner.reporters": "2.1.0-rc1-*",
-    "System.IO.Compression": "4.1.0-rc2-23901"    
+    "NuGet.Packaging.Core": "3.5.0-beta-1034",
+    "xunit.runner.reporters": "2.1.0"
   },
   "repository": {
     "type": "git",
